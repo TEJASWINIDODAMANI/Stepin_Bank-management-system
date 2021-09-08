@@ -1,4 +1,3 @@
-# test plan and test ouput
 
 # TEST PLAN:
 
