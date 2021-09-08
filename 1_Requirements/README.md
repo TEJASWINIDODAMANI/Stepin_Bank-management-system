@@ -1,55 +1,74 @@
-# Requirements
+# Requirements 
 
-## Introduction
-**Parking management system** is used for managing the incoming and outgoing vehicles. This project is designed using simple C language. Here the user have to enter the details of the vehicle before parking it in the parking area, so that the amount of vehicles being parked in the slot can be monitored without getting any traffic involved in between. The users can even check for the availability of the area for parking their vehicle. This mini project is compiled using **Visual Studio Code** on Windows and Linux.
+## Introduction 
+Bank Management System is a project where all the banking operations are performed easily and efficiently by computer. In this project the user is able to deposit the amount to his account , withdraw the amount from his account  and also be able to check his bank account details once he provide the correct pin. This is done once he choose the particular option to perform the transactions.
 
-## Features
-* To avoid thowing problems in the parking area.
-* To determine the capacity that been filled in the parking lot.
-* Storing and maintaining the records of the parking area in small period of time.
+## Objective 
+The main objectives of this project are: 
+* To perform all the tasks that any customer would desire.
+* To develop a software program for managing the entire bank process related to customer accounts and various transaction processes efficiently.
+* Our main objective is the customer’s satisfaction considering today’s faster world.
 
-## SWOT - Strengths, Weakness, Oppurtunities and Threats
-### Strengths
-- Easy accessibility.
-- User friendly.
-- Proper allocation of area.
-- Maintaining the information of vehicles parked before.
-- Amount to be paid can also be monitored.
 
-### Weakness
-- It needs few secured connection.
-- Simple C code.
+## SWOT ANALYSIS
+# Strengths
+* user friendly website
+* save customers time by fast operation
+* performs all the transactions that customer may desire.
 
-### Oppurtunities
-- Few features can be added to make the project more robust, by making few changes.
-- Can add identification of vehicle through number plates.
-- Can use different languages to make an efficient code.
+# Weakness
+* consoled based C project
+* low customer satisfaction 
+* poor website features
 
-### Threats
-- User must provide proper input value as provided in the options for proper execution.
+# Opportunities
+* It can be expanded by adding additional features like create an account, transfer the amount etc.
+* Can make the Application using other programming languages.
 
-## 4W's and 1H
-* **What** - Parking Management System
-* **Where** - In Malls, Restaurents, Function Halls
-* **When** - Gettogethers, Meetings, Functions
-* **Why** - To create traffic free parking areas
-* **How** - By information provided by the user
+# Threats
+* If user inputs a wrong pin, it is not proceeded further, so when the customer provides correct pin then transaction occurs.
+* If user try to withdraw the amount more than the balance amount leads to zero balance in the account.
 
-## Detail Requirements
-### High Level Requirements
-| High Level Requirements      | Description |
-| ----------- | ----------- |
-| HLR1      | Login and Log out     |
-| HLR2   | User Input |
-| HLR3_LLR1   | List of Vehicles|
-| HLR4_LLR2_LLR3   | Capacity and Amount |
-| HLR5_LLR4_LLR5   | Entry |
+## ***4 W's and 1 H***
+## Who
+* Any customerwho wants to perform basic transactions from an automatic machine Bank, telephone, via a computer or with a smartphone via the Internet.
 
-### Low Level Requirements
-| Low Level Requirements      | Description |
-| ----------- | ----------- |
-| LLR1      | Add List of Vehicles     |
-| LLR2   | Capacity|
-| LLR3   | View Amount to be paid |
-| LLR4   |View Previous Vehicles information |
-| LLR5   | Get Data / Exit |
+## What
+* This project allows the customer to deposit / withdraw money from his account, as well as balance details from all accounts present.
+
+## When 
+* Customers can access the banks' website to view their account details and perform the transactions on their account according to their requirements.
+
+## Why
+* To provide the access to the customers to deposit/withdraw the cash from his account, also to view reports of all accounts present.
+
+## How
+* Operates by using User Inputs after providing the correct pin.
+
+## Advantages of the project: 
+* Saves time of user.
+* It keeps track of customer service details.
+* Fast and accurate.
+* Provide better service to the customer.
+
+## HIGH LEVEL REQUIREMENTS:
+
+|ID|DESCRIPTION|
+|:-----|:--------------------------------|
+|HR01|User shall be able to provide ATM pin|
+|HR02|User shall be able to choose any particular choice to perform the transactions|
+|HR03|User shall be able to see all the options or choices that is displayed on the console in order to select the particular operation to be performed|
+|HR04|User shall be able to deposit, withdraw and also check his bank details|
+|HR05|User should be able to exit the process once done with the transactions|
+
+
+## LOW LEVEL REQUIREMENTS:
+
+|ID|DESCRIPTION|HLR ID|
+|:-------|:-------| :-------|
+|LR01|checks if the pin entered by the user is valid or not|HR01|
+|LR02|checks if the choice entered by the user is valid or not|HR02_03|
+|LR03|performs deposit operation|HR04|
+|LR04|performs withdraw operation|HR04|
+|LR05|performs check balance operation|HR04|
+|LR06|enables user to exit the process|HR05|
