@@ -11,7 +11,7 @@ int withdraw()
     {
      printf("Please collect your cash\n");
      new_balance =in_balance-amountToWidthdraw;//
-     printf("Your available balance is %d\n",balance);
+     printf("Your available balance is %d\n",new_balance);
      printf("\n\nDo you want to perform another transaction?\n Press 1 to proceed and 2 to exit\n\n");
      scanf("%d", &anotherTransaction);
        if(anotherTransaction == 1)
